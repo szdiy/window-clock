@@ -1,0 +1,62 @@
+--compact
+
+[labels]
+FT232RL
+refdes=U?
+! copyright=2007 DJ Delorie
+! author=DJ Delorie
+! use-license=unlimited
+! dist-license=GPL
+! device=USB to Serial converter
+! footprint=SSOP28
+
+[top]
+
+
+[left]
+
+20 VCC
+4 VCCIO
+
+19 \_RESET\_
+
+27 OSCI
+28 OSCO
+
+17 3V3OUT
+
+15 USBDP
+16 USBDM
+
+25 AGND
+
+
+[right]
+
+1 TXD
+5 RXD
+3 \_RTS\_
+11 \_CTS\_
+2 \_DTR\_
+9 \_DSR\_
+10 \_DCD\_
+6 \_RI\_
+
+23 CBUS0
+22 CBUS1
+13 CBUS2
+14 CBUS3
+12 CBUS4
+
+26 TEST
+
+7 GND
+18 GND
+21 GND
+
+[bottom]
+
+[nc]
+8 NC
+24 NC
+

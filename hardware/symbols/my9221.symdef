@@ -1,0 +1,45 @@
+# This is a sample symbol definition for documenting djboxsym.  Some
+# of the pins have been intentionally mistyped in order to demonstrate
+# all combinations of flags.  DO NOT USE AS A CP2201 REFERENCE!
+
+[labels]
+
+refdes=U?
+MY9221
+! copryright=2013 Atommann
+! author=Atommann
+! uselicense=unlimited
+! distlicense=GPL
+! device=MY9221 LED driver
+! description=ethernet controller
+! footprint=SSOP24
+
+[left]
+
+1   REXT_C
+2   REXT_B
+3   REXT_A
+4   OUTC[0]
+5   OUTB[0]
+6   OUTA[0]
+7   OUTC[1]
+8   OUTB[1]
+9   OUTA[1]
+10  GCKI
+11  DCKI
+12  DCKO
+
+[right]
+
+24 GND
+23 VDD
+22 NA
+21 OUTA[3]
+20 OUTB[3]
+19 OUTC[3]
+18 OUTA[2]
+17 OUTB[2]
+16 OUTC[2]
+15 GCKO
+14 DO
+13 DI

@@ -1,0 +1,28 @@
+#--vmode 
+--compact 
+#--square
+
+[labels]
+WS2812B
+refdes=LED?
+! copryright=2014 Atommann
+! author=Atommann
+! uselicense=unlimited
+! distlicense=GPL
+! device=RGB LED with built-in controller
+! footprint=WS2812B
+
+[left]
+
+1 VDD
+2 DOUT
+
+[right]
+
+4 DIN
+3 VSS
+
+[top]
+
+[bottom]
+

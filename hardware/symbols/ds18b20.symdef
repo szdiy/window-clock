@@ -1,0 +1,19 @@
+# This is a sample symbol definition for documenting djboxsym.  Some
+# of the pins have been intentionally mistyped in order to demonstrate
+# all combinations of flags.  DO NOT USE AS A CP2201 REFERENCE!
+
+[labels]
+
+refdes=U?
+! copryright=2009 Atommann
+! author=Atommann
+! uselicense=unlimited
+! distlicense=GPL
+! device=DS18B20
+! description=one wire bus temp. sensor
+! footprint=TO-92
+
+[bottom]
+1 GND
+2 DQ
+3 Vdd

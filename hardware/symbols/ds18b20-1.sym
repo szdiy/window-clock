@@ -1,0 +1,47 @@
+v 20070216 1
+B 0 300 1600 800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2000 800 9 10 0 0 0 0 1
+footprint=TO-92
+T 2000 1000 9 10 0 0 0 0 1
+description=one wire bus temp. sensor
+T 2000 1200 9 10 0 0 0 0 1
+device=DS18B20
+T 2000 1400 9 10 0 0 0 0 1
+distlicense=GPL
+T 2000 1600 9 10 0 0 0 0 1
+uselicense=unlimited
+T 2000 1800 9 10 0 0 0 0 1
+author=Atommann
+T 2000 2000 9 10 0 0 0 0 1
+copryright=2009 Atommann
+T 200 1200 9 10 1 1 0 3 1
+refdes=U?
+P 300 0 300 300 1 0 0
+{
+T 300 350 9 10 1 1 0 3 1
+pinlabel=GND
+T 350 250 5 8 1 1 0 2 1
+pinnumber=1
+T 350 250 5 8 0 1 0 2 1
+pinseq=1
+}
+P 800 0 800 300 1 0 0
+{
+T 800 350 9 10 1 1 0 3 1
+pinlabel=DQ
+T 850 250 5 8 1 1 0 2 1
+pinnumber=2
+T 850 250 5 8 0 1 0 2 1
+pinseq=2
+}
+P 1300 0 1300 300 1 0 0
+{
+T 1300 350 9 10 1 1 0 3 1
+pinlabel=Vdd
+T 1350 250 5 8 1 1 0 2 1
+pinnumber=3
+T 1350 250 5 8 0 1 0 2 1
+pinseq=3
+}
+T 400 800 9 10 1 0 0 0 1
+DS18B20
